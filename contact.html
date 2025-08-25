@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Auto4Sale</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/logo-nav.svg" alt="Auto4Sale" style="height: 55px; width: auto;">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="vehicles.html" class="nav-link">Vehicles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our friendly team</p>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <h2>Get in Touch</h2>
+                        <p>We're here to help you find your perfect vehicle. Contact us today to learn more about our inventory or schedule a test drive.</p>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h3>Address</h3>
+                                <p>123 Main Street<br>Auto City, AC 12345<br>United States</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>info@auto4sale.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-text">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 9:00 AM - 7:00 PM<br>
+                                Saturday: 9:00 AM - 6:00 PM<br>
+                                Sunday: 12:00 PM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2>Send us a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Please select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="vehicle">Vehicle Information</option>
+                                    <option value="financing">Financing Options</option>
+                                    <option value="service">Service Appointment</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="vehicleInterest">Vehicle of Interest (Optional)</label>
+                                <input type="text" id="vehicleInterest" name="vehicleInterest" placeholder="e.g., 2020 Toyota Camry">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help you..."></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label>
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    Subscribe to our newsletter for the latest deals and updates
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2>Find Us</h2>
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <h3>Visit Our Showroom</h3>
+                        <p>📍 123 Main Street, Auto City, AC 12345</p>
+                        <p>We're conveniently located in the heart of Auto City with ample parking available.</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-secondary">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Do you offer financing options?</h3>
+                        <p>Yes, we work with multiple lenders to provide competitive financing options for qualified buyers. Our finance team can help you find the best rates and terms.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I schedule a test drive?</h3>
+                        <p>Absolutely! We encourage test drives to help you make an informed decision. Contact us or visit our showroom to schedule a test drive for any vehicle in our inventory.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you accept trade-ins?</h3>
+                        <p>Yes, we accept trade-ins and will provide you with a fair market value assessment of your current vehicle. This can help reduce the cost of your next purchase.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What warranty options are available?</h3>
+                        <p>We offer various warranty options depending on the vehicle. Our sales team can explain the available coverage options and help you choose the best protection for your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="images/logo-footer.svg" alt="Auto4Sale" style="height: 50px; width: auto; margin-bottom: 1rem;">
+                    <p>Your trusted partner for quality pre-owned vehicles.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="vehicles.html">Vehicles</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Financing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 123 Main Street, Auto City, AC 12345</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>✉️ info@auto4sale.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon - Fri: 9:00 AM - 7:00 PM</p>
+                    <p>Sat: 9:00 AM - 6:00 PM</p>
+                    <p>Sun: 12:00 PM - 5:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Auto4Sale. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
