@@ -106,16 +106,6 @@ The website includes 8 sample vehicles with the following information:
 - 2019 Honda CR-V - $27,500
 - 2021 Ford F-150 - $42,000
 
-## 📸 Screenshots
-
-### Home Page
-![Home Page](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Auto4Sale+Home+Page)
-
-### Vehicles Page with Filtering
-![Vehicles Page](https://via.placeholder.com/800x400/059669/FFFFFF?text=Vehicles+Page+with+Advanced+Filtering)
-
-### Contact Page
-![Contact Page](https://via.placeholder.com/800x400/DC2626/FFFFFF?text=Contact+Page+with+Form)
 
 ## 🚀 Installation
 
@@ -326,4 +316,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Auto4Sale** - Your trusted partner for quality pre-owned vehicles.
+
 
