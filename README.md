@@ -10,7 +10,7 @@ A modern, responsive website for Auto4Sale car dealership built with vanilla HTM
 
 ## 🌟 Live Demo
 
-[View Live Demo](https://yourusername.github.io/auto4sale) (Replace with your GitHub Pages URL)
+https://umairyusufnurgat-cloud.github.io/Module-6-Assessment-2/
 
 ## 📋 Table of Contents
 
@@ -326,3 +326,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Auto4Sale** - Your trusted partner for quality pre-owned vehicles.
+
