@@ -1,0 +1,25 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Car icon -->
+  <g transform="translate(5, 8)">
+    <!-- Car body -->
+    <path d="M3 15 L3 18 L5 18 L5 20 L7 20 L7 18 L17 18 L17 20 L19 20 L19 18 L21 18 L21 15 L19 12 L18 8 L6 8 L5 12 Z" 
+          fill="#2563eb" stroke="#1d4ed8" stroke-width="0.5"/>
+    
+    <!-- Car windows -->
+    <path d="M6 8 L7 12 L17 12 L18 8 Z" fill="#94a3b8"/>
+    
+    <!-- Car wheels -->
+    <circle cx="7" cy="18" r="2" fill="#1e293b"/>
+    <circle cx="17" cy="18" r="2" fill="#1e293b"/>
+    <circle cx="7" cy="18" r="1" fill="#6b7280"/>
+    <circle cx="17" cy="18" r="1" fill="#6b7280"/>
+  </g>
+  
+  <!-- Company name -->
+  <text x="35" y="18" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e293b">
+    Auto
+  </text>
+  <text x="35" y="32" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#2563eb">
+    4Sale
+  </text>
+</svg>
